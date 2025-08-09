@@ -274,15 +274,15 @@ export default function HomePage() {
           </div>
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-bold text-amber-400 mb-2">500+</div>
+              <div className="text-4xl font-bold text-amber-400 mb-2">30+</div>
               <div className="text-green-100">Youth Empowered</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-amber-400 mb-2">50+</div>
+              <div className="text-4xl font-bold text-amber-400 mb-2">5+</div>
               <div className="text-green-100">Programs Delivered</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-amber-400 mb-2">25+</div>
+              <div className="text-4xl font-bold text-amber-400 mb-2">1+</div>
               <div className="text-green-100">Community Partners</div>
             </div>
             <div className="text-center">
@@ -338,10 +338,10 @@ export default function HomePage() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
                 <div className="p-6 text-center">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Sarah Uwimana</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Shallom Nshuti</h3>
                   <p className="text-green-600 font-medium mb-3">Multimedia Production Specialist</p>
                   <p className="text-gray-600 text-sm leading-relaxed">
-                    Crafting compelling visual and audio content, including videos and photos, to tell the stories of our impact and showcase the talents of Rwandan youth.                  </p>
+                    Crafting compelling visual and audio content, including videos and photos, to tell the stories of our impact and showcase the talents of Rwandan youth.</p>
                 </div>
               </CardContent>
             </Card>
@@ -394,20 +394,22 @@ export default function HomePage() {
             <Card className="border-gray-200 bg-green-50">
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="h-4 w-4 text-amber-400 fill-current" />
-                  ))}
+                  <p className="text-green-600 font-medium mb-3">Meet Shallom — The Creative Eye Behind the Lens</p>
                 </div>
                 <p className="text-gray-700 italic mb-4">
-                  "Vine Rwanda Initiative gave me the opportunity to develop my music skills. Today, I'm performing professionally and inspiring other young artists in my community."
+                  "Shallom is a gifted photographer and videographer whose talent brings stories to life through stunning visuals. With a keen eye for detail and a passion for capturing moments, Shallom transforms everyday scenes into unforgettable memories.
+
+                  As a proud member of the Vine Rwanda community, Shallom uses his skills to highlight the beauty, culture, and talent of Rwanda. His work inspires others to see the world differently and appreciate the power of visual storytelling.
+
+                  Follow Shallom’s journey as he continues to create impactful images and videos that speak louder than words."
                 </p>
                 <div className="flex items-center">
                   <div className="w-10 h-10 bg-green-200 rounded-full flex items-center justify-center mr-3">
-                    <span className="text-green-700 font-semibold">AM</span>
+                    <span className="text-green-700 font-semibold">NS</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-900">Alice Mukamana</p>
-                    <p className="text-sm text-gray-600">Musician</p>
+                    <p className="font-semibold text-gray-900">Nshuti Shallom</p>
+                    <p className="text-sm text-gray-600">Photographer</p>
                   </div>
                 </div>
               </CardContent>
@@ -416,20 +418,20 @@ export default function HomePage() {
             <Card className="border-gray-200 bg-amber-50">
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="h-4 w-4 text-amber-400 fill-current" />
-                  ))}
+                    <p className="text-green-600 font-medium mb-3">Meet Rudasingwa Bienvenue — Web Development & Digital Solutions Specialist</p>
                 </div>
                 <p className="text-gray-700 italic mb-4">
-                  "The mentorship I received helped me believe in myself. I've now started my own youth program in my village, reaching over 50 young people."
+                  "Rudasingwa Bienvenue is a skilled Web Development and Digital Solutions Specialist with a passion for creating innovative, user-friendly, and impactful online experiences. His expertise combines creativity and technology, delivering websites and digital platforms that not only look great but also perform seamlessly.
+
+                  As part of the Vine Rwanda network, Bienvenue uses his talents to empower young people and organizations with modern digital tools that help them reach wider audiences and achieve their goals. His work is a testament to how technology can inspire change and open doors to new opportunities."
                 </p>
                 <div className="flex items-center">
                   <div className="w-10 h-10 bg-amber-200 rounded-full flex items-center justify-center mr-3">
-                    <span className="text-amber-700 font-semibold">JB</span>
+                    <span className="text-amber-700 font-semibold">RB</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-900">Jean Baptiste</p>
-                    <p className="text-sm text-gray-600">Community Leader</p>
+                    <p className="font-semibold text-gray-900">RUDASINGWA Bienvenue</p>
+                    <p className="text-sm text-gray-600">Website Developer</p>
                   </div>
                 </div>
               </CardContent>
@@ -438,20 +440,22 @@ export default function HomePage() {
             <Card className="border-gray-200 bg-green-50">
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="h-4 w-4 text-amber-400 fill-current" />
-                  ))}
+                  <p className="text-green-600 font-medium mb-3">
+                    Meet (AYO 1ST) Joy — The Rising Voice of Vine Rwanda
+                  </p>
                 </div>
                 <p className="text-gray-700 italic mb-4">
-                  "Through the Vine Dream Fund, I received the equipment I needed to pursue photography. Now I run my own studio and employ three other young people."
+                  "Joy is a talented singer whose soulful voice has captured the hearts of many in the Vine Rwanda community. With every note she sings, she tells stories of hope, dreams, and the beauty of life in Rwanda. Joy’s passion for music shines through her performances, inspiring young people to pursue their talents fearlessly.
+
+                  As part of Vine Rwanda’s mission to uplift and support young artists, Joy is proof that with dedication and the right platform, dreams can come alive. Follow her journey and witness the rise of a star who’s destined to make a lasting impact in Rwanda’s music scene."
                 </p>
                 <div className="flex items-center">
                   <div className="w-10 h-10 bg-green-200 rounded-full flex items-center justify-center mr-3">
-                    <span className="text-green-700 font-semibold">MN</span>
+                    <span className="text-green-700 font-semibold">IJ</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-900">Marie Nyirahabimana</p>
-                    <p className="text-sm text-gray-600">Photographer</p>
+                    <p className="font-semibold text-gray-900">Isimbi Joy (Ayo 1st)</p>
+                    <p className="text-sm text-gray-600">Music Artist</p>
                   </div>
                 </div>
               </CardContent>
@@ -581,14 +585,14 @@ export default function HomePage() {
               <div className="flex flex-col items-center">
                 <Instagram className="h-8 w-8 mb-3 text-amber-400" />
                 <h3 className="font-semibold mb-2">Instagram</h3>
-                <a href="https://instagram.com/vine_rwandainitiative" className="text-gray-300 hover:text-green-400 transition-colors">
+                <a href="https://www.instagram.com/vine_rwandainitiatives?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" className="text-gray-300 hover:text-green-400 transition-colors">
                   @vine_rwandainitiative
                 </a>
               </div>
               <div className="flex flex-col items-center">
                 <Youtube className="h-8 w-8 mb-3 text-amber-400" />
                 <h3 className="font-semibold mb-2">YouTube</h3>
-                <a href="#" className="text-gray-300 hover:text-green-400 transition-colors">
+                <a href="https://www.youtube.com/@VINERWANDATV" target="_blank" className="text-gray-300 hover:text-green-400 transition-colors">
                   Vine Rwanda TV
                 </a>
               </div>
